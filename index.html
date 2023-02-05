@@ -1,75 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Hewoo</title>
-    <style>
-      body {
-        background-image: url('https://cdn.discordapp.com/attachments/1070478613167738922/1071492415820664882/25809256.jpg');
-        background-size: 50%, 10%;
-        background-repeat: no-repeat;
-	background-position: center top;
-      }
-	p.positioned {
-       	 	position: absolute;
-        	top: 500px;
-        	left: 500px;
-      	}
-    </style>
-  </head>
-  <body>
-    <header>
-      <!-- header content, such as logo and navigation -->
-    </header>
-    <main>
-      <button id="yes">Yes</button>
-	<div style="position: relative; top: -150px; left: 650px;">
-		<img id="myImage" src="https://cdn.discordapp.com/attachments/715314262725099624/1071641057038712882/image.png" 
-		style="display: none;">
-	</div>
-	<style>
-		#yes {
-		width: 200px;
-  		height: 50px;
-  		position: absolute;
-  		top: 800px;
-  		left: 600px;
-		font-size: 18px;
-		}
-	</style>
-
-	<script>
-		document.getElementById("yes").addEventListener("click", function() {
-  		document.body.style.backgroundImage = "url('')";
-		document.getElementById("yes").style.display = "none";
-		document.getElementById("no").style.display = "none";
-		document.getElementById("myImage").style.display = "block";
-		});
-	</script>
-	
-	<button id="no">No</button>
-	<style>
-		#no {
-		width: 200px;
-  		height: 50px;
-  		position: absolute;
-  		top: 800px;
-  		left: 1000px;
-		font-size: 18px;
-		}
-	</style>
-
-	<script>
-		document.getElementById("no").addEventListener("click", function() {
-  		document.body.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/715314262725099624/1071601321590919198/yepo.jpg')";
-		document.getElementById("yes").style.display = "none";
-		document.getElementById("no").style.display = "none";
-		});
-	</script>
-
-    </main>
-    <footer>
-      <!-- footer content, such as copyright information -->
-    </footer>
-  </body>
+<head>
+  <title>My YouTube Video</title>
+</head>
+<body>
+  <h1>My YouTube Video</h1>
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=VQ-qwdoxyrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
 </html>
+
 
