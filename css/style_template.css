@@ -1,0 +1,214 @@
+/* General Styles */
+body {
+    margin: 0;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #515883;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border: 1px solid;
+}
+
+nav p, nav a {
+    background-color: #515883;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    background-color: #515883;
+    display: flex;
+}
+
+nav a:hover {
+    background-color: #515883;
+    display: flex;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #E2E0C8;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+
+footer a {
+    background-color: #E2E0C8;
+    display: flex;
+    justify-content: center;
+}
+
+footer a:hover {
+    background-color: #E2E0C8;
+    display: flex;
+    justify-content: center;
+}
+
+/* Splash Section */
+.splash {
+    background-color: #5C7285;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    border: 1px solid;
+}
+
+.splash h1 {
+    background-color: #5C7285;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.splash img {
+    border-radius: 10%;
+}
+
+.splash p {
+    background-color: #5C7285;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* Horizontal Rules */
+hr {
+    background-color: #818C78;
+    border: 1px solid;
+    height: 20px;
+    margin: 0;
+    width: 100%;
+}
+
+/* Sections */
+section {
+    background-color: #A7B49E;
+    border: 1px solid;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: large;
+}
+
+/* Paragraph Styles */
+section p {
+    background-color: #A7B49E;
+}
+
+/* link styles */
+section a {
+    color: #0b6abd;
+    text-decoration: none;
+}
+section a:hover {
+    color: #6701bb;
+    text-decoration: none;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+    
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 8px;
+    padding-left: 20px;
+}
+dl dt{
+
+}
+dl dd{
+    margin: 0;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 16px;
+}
+
+.card {
+    background-color: antiquewhite;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.card h3 {
+    margin-top: 16px;
+    font-size: 1.5rem;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+form {
+    width: 50%;
+}
+
+form input, form textarea {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-left: 50px;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #0b6abd;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+
+}
+
+form button {
+    display: block;
+    width: 50%;
+    padding: 10px 20px;
+    background-color: #0b6abd;
+    border-radius: 4px;
+    margin-left: 50px;
+}
+
+form button:hover {
+    background-color: #6701bb;
+}
